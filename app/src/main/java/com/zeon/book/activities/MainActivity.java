@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupBottomNavigation(NavController navController) {
-        NavigationUI.setupWithNavController(binding.navView, navController);
+        NavigationUI.setupWithNavController(binding.bottomNavigation, navController);
     }
 
     @Override
