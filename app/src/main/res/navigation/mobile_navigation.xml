@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.zeon.book.fragments.QuoteFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_quote" />
+
+    <fragment
+        android:id="@+id/navigation_aim"
+        android:name="com.zeon.book.fragments.StatisticsFragment"
+        android:label="@string/title_aim"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/navigation_books"
+        android:name="com.zeon.book.fragments.BooksFragment"
+        android:label="@string/title_books"
+        tools:layout="@layout/fragment_books" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.zeon.book.fragments.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

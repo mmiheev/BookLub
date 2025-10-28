@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name & Main Navigation -->
+    <string name="app_name">BookLub</string>
+    <string name="title_home">Цитаты</string>
+    <string name="title_books">Книги</string>
+    <string name="title_aim">Цели</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_wish">Пожелания</string>
+
+    <!-- Book Related -->
+    <string name="book_name">Название</string>
+    <string name="author">Автор</string>
+    <string name="book">Книга</string>
+    <string name="genre">Жанр</string>
+    <string name="genre_">Жанр:</string>
+    <string name="series">Серия</string>
+    <string name="series_">Серия:</string>
+    <string name="description">Описание</string>
+    <string name="short_description">Описание</string>
+    <string name="note">Мнение</string>
+    <string name="title_note">Мнение</string>
+    <string name="finish_date">Дата прочтения</string>
+
+    <!-- Categories -->
+    <string name="category_all">Все</string>
+    <string name="category_favorite">Избранные</string>
+    <string name="category_finished">Прочитанные</string>
+    <string name="all">Все</string>
+    <string name="finished_books">Прочитанные</string>
+    <string name="favorite_books">Избранные</string>
+
+    <!-- Actions -->
+    <string name="add">Добавить</string>
+    <string name="edit">Изменить</string>
+    <string name="update">Обновить</string>
+    <string name="cansel">Назад</string>
+    <string name="title_delete">Удалить</string>
+    <string name="like">Нравится</string>
+    <string name="finished">Закончена</string>
+    <string name="send">Отправить</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="rate_app">Мне нравится</string>
+    <string name="share_app">Поделиться</string>
+    <string name="contact_us">Написать нам</string>
+
+    <!-- Feedback & Email -->
+    <string name="user_name">Ваше имя</string>
+    <string name="message">Сообщение</string>
+    <string name="email_subject">Обратная связь</string>
+    <string name="contact_email">zeonassistant@gmail.com</string>
+    <string name="choose_email_app">Выберите почтовое приложение</string>
+    <string name="no_email_app">Не найдено почтовое приложение</string>
+    <string name="enter_name">Пожалуйста, введите ваше имя</string>
+    <string name="enter_message">Пожалуйста, введите сообщение</string>
+    <string name="best_regards">С уважением,</string>
+    <string name="no_app_to_open_link">Не найдено приложение для открытия ссылки</string>
+    <string name="no_app_to_share">Не найдено приложение для отправки</string>
+    <string name="cant_open_feedback">Не удалось открыть форму обратной связи</string>
+    <string name="attach_device_info">Приложить к письму показатели устройства</string>
+
+    <!-- Quotes -->
+    <string name="quote">Цитата</string>
+    <string name="quote_added">Цитата добавлена</string>
+    <string name="fill_quote_and_author">Заполните цитату и автора</string>
+
+    <!-- Statistics & Sharing -->
+    <string name="statistics_for_year">Статистика за %d год</string>
+    <string name="share_via">Поделиться с помощью</string>
+    <string name="books_finished">книг закончено</string>
+
+    <!-- Messages & Dialogs -->
+    <string name="add_book">Добавить книгу</string>
+    <string name="error_adding_record">Ошибка при добавлении записи</string>
+    <string name="error_updating_record">Ошибка при обновлении записи</string>
+    <string name="error_loading_data">Ошибка загрузки данных</string>
+    <string name="error_deleting">Ошибка при удалении</string>
+    <string name="delete_book_confirm">Удалить книгу?</string>
+    <string name="delete_quote_confirm">Удалить цитату?</string>
+    <string name="book_added_to_favorites">Книга добавлена в избранное</string>
+    <string name="book_removed_from_favorites">Книга изъята из избранного</string>
+    <string name="book_not_finished">Книга не дочитана</string>
+    <string name="set_reading_date">Установите дату прочтения книги</string>
+    <string name="book_finished">Книга дочитана</string>
+    <string name="empty_books_message">Вы пока не добавили ни одной книги :(</string>
+    <string name="empty_quotes_message">Вы пока не добавили ни одной цитаты :(</string>
+    <string name="date_required_for_statistics">Установка даты необходима для отображения статистики по прочтенным книгам.</string>
+</resources>

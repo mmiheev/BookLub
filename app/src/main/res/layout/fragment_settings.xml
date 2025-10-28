@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".fragments.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btnILike"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="@string/rate_app"
+            app:drawableStartCompat="@drawable/ic_like_black"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="@string/share_app"
+            app:drawableStartCompat="@drawable/ic_share"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/btnWriteUs"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="@string/contact_us"
+            app:drawableStartCompat="@drawable/ic_write"
+            tools:ignore="RtlSymmetry" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginBottom="@dimen/view_margin"
+            android:background="@color/text" />
+
+    </LinearLayout>
+
+</LinearLayout>
