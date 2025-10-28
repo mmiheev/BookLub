@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration createAppBarConfiguration() {
         return new AppBarConfiguration.Builder(
                 R.id.navigation_home,
-                R.id.navigation_aim,
+                R.id.navigation_goals,
                 R.id.navigation_books,
                 R.id.navigation_settings
         ).build();
