@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_quote" />
 
     <fragment
-        android:id="@+id/navigation_aim"
+        android:id="@+id/navigation_goals"
         android:name="com.zeon.book.fragments.StatisticsFragment"
         android:label="@string/title_aim"
         tools:layout="@layout/fragment_statistics" />
