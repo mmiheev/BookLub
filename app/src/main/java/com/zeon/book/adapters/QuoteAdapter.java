@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -39,12 +40,19 @@ public class QuoteAdapter extends RecyclerView.Adapter<QuoteAdapter.ViewHolder> 
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Quote quote = quotes.get(position);
         holder.bind(quote);
-
         holder.itemView.setOnClickListener(view -> {
             Intent intent = new Intent(context, PageQuoteActivity.class)
                     .putExtra(IntentName.ID.getName(), quote.getId());
             context.startActivity(intent);
         });
+
+        RecyclerView.LayoutParams lp = (RecyclerView.LayoutParams) holder.itemView.getLayoutParams();
+        if (position == getItemCount() - 1) {
+            lp.bottomMargin = (int) (80 * holder.itemView.getContext().getResources().getDisplayMetrics().density);
+        } else {
+            lp.bottomMargin = 6;
+        }
+        holder.itemView.setLayoutParams(lp);
     }
 
     @Override
